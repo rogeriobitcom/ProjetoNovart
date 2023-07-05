@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://213.190.6.200/sistema_novart
+    username: sistema_nova
+    password: Nova@Bit
+    jpa:
+      generate-ddl: 'true'
+      show-sql: true
+      properties:
+        hibernate:
+          format_sql: 'true'
